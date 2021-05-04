@@ -7,9 +7,9 @@ metadata:
   namespace: default
 spec:
   ports:
-  - port: 8070
+  - port: 8080
     protocol: TCP
-    targetPort: 8070
+    targetPort: 8080
   selector:
     app: spring
   type: LoadBalancer
